@@ -1,0 +1,10 @@
+<div class="container">
+  <h1 class="mb-4 text-4xl font-bold tracking-tight text-heading md:text-5xl lg:text-6xl">Our <span class="text-fg-brand">restaurant</span>:</h1>
+  <br>
+      <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs hover:bg-neutral-secondary-medium">
+        <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">  <%= @restaurant.name %></h5>
+        <p class="text-body"><b><%= @restaurant.category.capitalize %></b></p>
+        <p class="text-body"><%= @restaurant.address %></p>
+        <p class="text-body"><i><%= @restaurant.phone_number %></i></p>
+      </div>
+</div>
